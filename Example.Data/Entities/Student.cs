@@ -14,6 +14,7 @@ namespace Example.Data.Entities
         public byte[] Photo { get; set; }
         public decimal Height { get; set; }
         public float Weight { get; set; }
+        public string MailAddress { get; set; }
 
         public ICollection<Standard> Standards { get; set; }
     }
