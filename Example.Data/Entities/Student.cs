@@ -15,6 +15,6 @@ namespace Example.Data.Entities
         public decimal Height { get; set; }
         public float Weight { get; set; }
 
-        public Standard Standard { get; set; }
+        public ICollection<Standard> Standards { get; set; }
     }
 }

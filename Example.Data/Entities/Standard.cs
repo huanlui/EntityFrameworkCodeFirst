@@ -11,6 +11,6 @@ namespace Example.Data.Entities
         public int StandardId { get; set; }
         public string StandardName { get; set; }
 
-        public ICollection<Student> Students { get; set; }
+        public ICollection<Student> Students { get; set; } //It could be any ICollection. Here, we could put IList<Student> or List<Student>
     }
 }
